@@ -1,9 +1,36 @@
 
-
+/* Font sizes and colors for page */
 
 body {
     background-color: #1F2937;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button {
+    color: #3882F6;
+}
+
+.information-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-3 {
+    background-color: #F9FAF8;
+}
+
+.secction-4 {
+    background-color: #E5E7EB;
 }
