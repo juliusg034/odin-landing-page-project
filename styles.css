@@ -22,8 +22,23 @@ body {
     color: #3882F6;
 }
 
-.information-text {
+.header-information-text {
     font-size: 36px;
+    color: #1F2937;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: hsl(220, 13%, 91%)
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-3-text {
+    font-size: 18px;
     color: #1F2937;
 }
 
@@ -33,4 +48,12 @@ body {
 
 .secction-4 {
     background-color: #E5E7EB;
+}
+
+.copyright {
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
 }
