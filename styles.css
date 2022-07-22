@@ -94,3 +94,8 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
 }
+
+.section-two-left-side {
+    display: flex;
+    flex-direction: column;
+}
