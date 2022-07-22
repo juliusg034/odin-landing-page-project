@@ -18,6 +18,11 @@ body {
     color: #F9FAF8;
 }
 
+.link-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .button {
     color: #3882F6;
 }
@@ -56,4 +61,20 @@ body {
 
 footer {
     background-color: #1F2937;
+}
+
+/* Positioning and Layout */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
 }
