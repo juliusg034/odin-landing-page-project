@@ -90,12 +90,19 @@ nav ul a:hover {
     color: rgb(129, 129, 129);
 }
 
-.section-two {
+.section-2 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.section-two-left-side {
+.section-2-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.section-2-right-side {
     display: flex;
     flex-direction: column;
 }
