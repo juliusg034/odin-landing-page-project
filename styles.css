@@ -89,3 +89,8 @@ nav ul a {
 nav ul a:hover {
     color: rgb(129, 129, 129);
 }
+
+.section-two {
+    display: flex;
+    justify-content: center;
+}
