@@ -19,12 +19,21 @@ body {
 }
 
 .link-text {
-    font-size: 18px;
+    font-size: 24px;
     color: #E5E7EB;
 }
 
 .button {
-    color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+
+
 }
 
 .header-information-text {
@@ -71,15 +80,15 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
-    height: 80px;
-    margin-left: 200px;
+    height: 60px;
+    margin-left: 400px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 30px;
-    margin-right: 200px;
+    margin-right: 400px;
 }
 
 nav ul a {
@@ -92,17 +101,23 @@ nav ul a:hover {
 
 .section-2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: 400px;
 }
 
 .section-2-left-side {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
+    margin-left: 400px;
+    
 }
 
 .section-2-right-side {
     display: flex;
     flex-direction: column;
+    width: 25%;
+    margin-right: 400px;
+
 }
