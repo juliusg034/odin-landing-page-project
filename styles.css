@@ -6,6 +6,7 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .secondary-text {
@@ -50,18 +51,25 @@ body {
     font-size: 36px;
     color: #1F2937;
 }
+.quote {
+    color: #1F2937;
+}
 
 .section-3-text {
     font-size: 18px;
-    color: #1F2937;
+    color: #464646;
 }
 
 .section-3 {
     background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
-.secction-4 {
-    background-color: #E5E7EB;
+.section-4 {
+    background-color: #F9FAF8;
+    margin: 0;
+    padding: 0;
 }
 
 .copyright {
@@ -70,6 +78,7 @@ body {
 
 footer {
     background-color: #1F2937;
+    width: 100%;
 }
 
 /* Positioning and Layout */
@@ -121,3 +130,38 @@ nav ul a:hover {
     margin-right: 400px;
 
 }
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-3-heading {
+    margin-bottom: 50px;
+}
+
+.section-3-squares {
+    display: flex;
+    gap: 20px;
+}
+
+.section-3-square {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 175px;
+}
+
+
+.section-3-square img {
+    border-style: solid;
+    border-color: rgb(75, 137, 224);
+    width: 150px;
+    align-self: center;
+    border-radius: 15px;
+}
+
+
