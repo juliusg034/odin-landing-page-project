@@ -50,9 +50,13 @@ body {
 .quote-text {
     font-size: 36px;
     color: #1F2937;
+    font-weight: 300;
 }
 .quote {
     color: #1F2937;
+    font-size: 36px;
+    font-weight: 600;
+    justify-self: flex-end;
 }
 
 .section-3-text {
@@ -67,7 +71,7 @@ body {
 }
 
 .section-4 {
-    background-color: #F9FAF8;
+    background-color: #E5E7EB;
     margin: 0;
     padding: 0;
 }
@@ -164,4 +168,20 @@ nav ul a:hover {
     border-radius: 15px;
 }
 
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+}
+
+.section-4-text {
+    width: 60%;
+}
+
+.section-4-author {
+    align-self: flex-end;
+    margin-right: 330px;
+}
 
